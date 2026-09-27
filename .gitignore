@@ -1,0 +1,70 @@
+# ============ ENVIRONMENT & SECRETS ============
+.env
+.env.local
+.env.*.local
+*.env
+secrets.json
+config.private.py
+
+# ============ PYTHON (Backend + AI) ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ============ NODE / REACT (Frontend) ============
+node_modules/
+dist/
+build/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ============ AI / ML MODELS ============
+*.pt
+*.pth
+*.onnx
+*.h5
+*.weights
+runs/
+wandb/
+mlruns/
+*.h5
+checkpoints/
+datasets/raw/
+!datasets/README.md
+
+# ============ DATABASE ============
+*.sqlite3
+*.db
+postgres_data/
+
+# ============ UPLOADS ============
+uploads/
+media/
+static/uploads/
+*.log
+
+# ============ IDE / OS ============
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============ ENV FILES ============
+*.env.example
